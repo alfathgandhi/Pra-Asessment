@@ -51,7 +51,7 @@ private lateinit var binding: FragmentPersegeiBinding
     binding.share.setOnClickListener {
 
             var shareIntent = ShareCompat.IntentBuilder.from(requireActivity())
-                .setText("SHARE Keliling dan Luas")
+                .setText("SHARE Kelilng dan Luas")
                 .setType("text/plain")
                 .intent
             try {
